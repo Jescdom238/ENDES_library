@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class bookTest {
     @Test
     void testBookCreation() {
-        book book = new book();
+        Book book = new Book();
         assertNotNull(book);
     }
 }
